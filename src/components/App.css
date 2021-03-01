@@ -1,0 +1,83 @@
+/* Styles go here */
+
+body{
+  color: #6c757e;
+}
+
+.text-body{
+  color: #6c757e;
+}
+
+.token {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.menu-logo , .menu-logo i{
+  color: #1888ff;
+}
+
+.menu {
+  background-color: #fff;
+  box-shadow: 0 1px 10px rgba(151,164,175,.1);
+  font-size: 1.2rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills{
+  color: #6c757e;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background: white!important;
+}
+
+dropdown-item:focus, .dropdown-item:hover {
+  color: #1888ff;
+  text-decoration: none;
+  background-color: white!important;
+}
+
+.dropdown-menu.show{
+  border-top: .1875rem solid #3498db;
+  border-bottom-right-radius: .35rem;
+  border-bottom-left-radius: .35rem;
+  box-shadow: 0 8px 20px rgb(52 152 219 / 8%);
+  border-radius: 0;
+}
+
+
+
+.menu-logo {
+  color: #6c757e;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+
+
+
+.nav-links, a {
+  color: #6c757e!important;
+}
+
+.nav-links:hover, a:hover {
+  color: #1888ff!important;
+}
+
+.fa-bars {
+  color: #6c757e;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
